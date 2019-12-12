@@ -3,9 +3,11 @@
 
 
 ### 1. @EnableTransactionManagement란?
- Spring의 Annotation 기반의 트랜잭션 관리 기능을 사용할 때 쓰인다. 일명 @Transactional 어노테이션 타입의 선언적(?) 트랜잭션을 위한 용도로 사용된다. 
+ Spring의 Annotation 기반의 트랜잭션 관리 기능을 사용할 때 쓰인다. 
+ xml 기반의 **tx:annotation-driven'**과 유사한 기능이다.
 
-또한 기본적으로 Proxy와 AspectJ를 지원한다. 
+proxy, aspectJ, aop동작기반 등을 지원하여 @Transactional을 선언한 곳에서 이러한 기능들을 지원해준다.
+
 
 @EnableTransactionManagement 소스
 ~~~java 
@@ -22,9 +24,10 @@ public @interface EnableTransactionManagement {
 }
 ~~~
 
+### 2. tx:annotation-driven기반과의 차이점
+tx:annotation은 default로 bean 이름이 transactionManager를 찾도록 되어있다. 반면에 @EnableTransactionManagement는 이런 default bean 이름과 상관없이 사용자가 설정한 name에 따라 설정이 가능하다. 
 
-
-### 2. 설정
+### 3. 설정
 
 ~~~java
 @Configuration
@@ -55,7 +58,7 @@ public class JpaConfig  {
 
 
     @Bean
-    public PlatformTransactionManager transactionManager(EntityManagerFactory entityManagerFactory) {
+    public PlatformTransactionManager jpaTransactionManager(EntityManagerFactory entityManagerFactory) {
         JpaTransactionManager jpaTransactionManager = new JpaTransactionManager();
         jpaTransactionManager.setEntityManagerFactory(entityManagerFactory);
         return jpaTransactionManager;
@@ -70,9 +73,8 @@ public class JpaConfig  {
         properties.setProperty("spring.jpa.properties.hibernate.format_sql",  env.getProperty("format_sql"));
         return properties;
     }
-
-
 ~~~
+
 ~~~java
 @Service
 @Transactional
@@ -83,21 +85,24 @@ public class MemberManagementImpl implements MemberManagementService {
 ~~~
  
 
-### 3. 주의사항
+### 3. 테스트 결과 
+ Bean DI 테스트 : 성공
 
-default로 **"transactionManager"** 라는 Bean 이름을 찾는다. 그래서 위에서 설정코드는 정상작동하지만, 아래에서처럼 다른 bean 메소드를 설정하면, 
-transactionManager라는 Bean을 찾을 수 없다는 오류가 발생한다.
+~~~JAVA
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(classes = RootAppConfig.class)
+public class ApplicationContextConfigTest {
 
-~~~ java 
-    @Bean
-    public PlatformTransactionManager jpaTransactionManager(EntityManagerFactory entityManagerFactory) {
-        JpaTransactionManager jpaTransactionManager = new JpaTransactionManager();
-        jpaTransactionManager.setEntityManagerFactory(entityManagerFactory);
-        return jpaTransactionManager;
+    @Autowired
+     private PlatformTransactionManager jpaTransactionManager;
+
+      @Test
+    public void rootContextDependencyInjection(){
+        Assert.assertEquals(jpaTransactionManager.getClass(), new JpaTransactionManager().getClass());
+
     }
+}
 ~~~
-![스크린샷](../JPA/img/@EnableTransactionManagement.png)
 
 
-단일 트랜잭션 메니저를 사용할 경우 transactionManager라는 이름을 사용하느게 좋으나, 
-다중 트랜잭션 매니저를 설정할 경우에는 별도의 설정이 필요할 듯 싶다. 
+
