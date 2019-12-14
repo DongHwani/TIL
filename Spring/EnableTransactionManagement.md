@@ -81,7 +81,7 @@ public interface MemberManagementJpaRepo extends JpaRepository<Member, Long>{
 ~~~
  
  위의 내용을 실행하면 테스트가 실패한다. 스택 트레이스를 확인해보면 
-![stacktrace](../JPA/img/@EnableTransactionManagement.png)
+![stacktrace](../Spring/img/@EnableTransactionManagement.png)
 
 **"transactionManager"**의 Bean을 찾을 수 없다는 내용이다. 
 
