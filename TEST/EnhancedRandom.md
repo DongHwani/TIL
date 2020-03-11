@@ -103,7 +103,7 @@ public class LectureRepositoryTest {
 이전의 테스트와 비교 했을 때, Lecture를 save 시키기 위하여 Member객체와 entity에 속한 value타입들을 생성 해야하는 불필요한 긴 코드들이 많이 없어졌고, 도메인 로직을 테스트를 하기위하여 변경할 필요도 없어졌다.
 
 
-![Debug](/JPA/img/Debug.png)
+![Debug](/TEST/img/Debug.png)
 
 위의 테스트를 실행해서 디버그모드로 확인해 보면 Lecture 객체에 랜덤값이 들어간 걸 확인 할 수 있다. 
 
