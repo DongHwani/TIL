@@ -11,7 +11,7 @@
 
 [다이어그램]
 
-![템플릿메서드](/디자인패턴/img/TemplateMethod.png)
+![템플릿메서드](/DesignPattern/img/TemplateMethod.png)
 
 UML을 보면 구현 클래스로 Avante, GenesisCoupe 클래스 두개가 있다.
 부모 클래스인 Car는 추상클래스로 **공통으로 진행되는 사항** 에 대해서는 부모클래스에서 정의하고, 각각의 구현체별로 **재정의가 필요한 사항**에서는 추상메서드를 사용한다.
