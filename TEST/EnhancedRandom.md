@@ -1,4 +1,6 @@
 
+# EnhancedRandom
+
 
 기존 테스트에서 직접 객체에 할당하는 관용구 코드가 넘쳐나서 github의 EnhancedRandom이라는 라이브러리를 사용하여 객체에 Random값을 넣었다.
 
