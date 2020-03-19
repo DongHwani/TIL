@@ -22,6 +22,7 @@
 
 ### DesignPattern
  - [TemplateMethod](https://github.com/dhkdhk/TIL/blob/master/DesignPattern/TemplateMethod.md)
+ - [Observer](https://github.com/dhkdhk/TIL/blob/master/DesignPattern/Observer.md) 
 
 ### JAVA
 
@@ -37,6 +38,7 @@
 ### Scala
  - [CBN&CNV](https://github.com/dhkdhk/TIL/blob/master/Scala/CBN%26CNV.md)
  - [Tuple](https://github.com/dhkdhk/TIL/blob/master/Scala/Tuple.md)
+ - [고차함수](https://github.com/dhkdhk/TIL/blob/master/Scala/고차함수.md)
 
 ### Security
  - [CSRF](https://github.com/dhkdhk/TIL/blob/master/Security/CSRF.md)
