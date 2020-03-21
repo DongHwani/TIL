@@ -8,9 +8,10 @@
 ## 분류
 
 
-### CS
- - [논리합](https://github.com/dhkdhk/TIL/blob/master/CS/%EB%85%BC%EB%A6%AC%ED%95%A9(Short-Circuit).md)
- - [해시함수](https://github.com/dhkdhk/TIL/blob/master/CS/%ED%95%B4%EC%8B%9C%ED%95%A8%EC%88%98.md)
+### ETC
+ - [논리합](https://github.com/dhkdhk/TIL/blob/master/ETC/%EB%85%BC%EB%A6%AC%ED%95%A9(Short-Circuit).md)
+ - [해시함수](https://github.com/dhkdhk/TIL/blob/master/ETC/%ED%95%B4%EC%8B%9C%ED%95%A8%EC%88%98.md)
+
 
 ### Database
  - [isolation_level](https://github.com/dhkdhk/TIL/blob/master/Database/isolation_level.md)
@@ -53,3 +54,7 @@
 
 ### TEST
  - [EnhancedRandom](https://github.com/dhkdhk/TIL/blob/master/TEST/EnhancedRandom.md)
+
+### Linux
+- [권한](https://github.com/dhkdhk/TIL/blob/master/Linux/권한.md)
+- [ShellScript(1)](https://github.com/dhkdhk/TIL/blob/master/Linux/ShellScript(1).md)
