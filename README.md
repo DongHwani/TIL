@@ -23,6 +23,7 @@
 ### DesignPattern
  - [TemplateMethod](https://github.com/dhkdhk/TIL/blob/master/DesignPattern/TemplateMethod.md)
  - [Observer](https://github.com/dhkdhk/TIL/blob/master/DesignPattern/Observer.md) 
+ - [DependencyInjection](https://github.com/dhkdhk/TIL/blob/master/DesignPattern/DependencyInjection.md) 
 
 ### JAVA
 
