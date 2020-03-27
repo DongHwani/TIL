@@ -29,13 +29,16 @@
 ### JAVA
 
 ### JPA
+ - [CustomRepository](https://github.com/dhkdhk/TIL/blob/master/JPA/CustomRepository.md)
  - [@Modifying주의사항](https://github.com/dhkdhk/TIL/blob/master/JPA/%40Modifying%20%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD.md)
  - [AttributeConverter](https://github.com/dhkdhk/TIL/blob/master/JPA/AttributeConverter.md)
  - [ValueType_Collection](https://github.com/dhkdhk/TIL/blob/master/JPA/Value%ED%83%80%EC%9E%85%EC%BB%AC%EB%A0%89%EC%85%98.md)
  - [영속성컨텍스트](https://github.com/dhkdhk/TIL/blob/master/JPA/%EC%98%81%EC%86%8D%EC%84%B1%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8.md)
 
 ### Network
- - [referer](https://github.com/dhkdhk/TIL/blob/master/Network/referer.md)
+ - [Public&Private Address](https://github.com/dhkdhk/TIL/blob/master/Network/Public&PrivateAddress.md)
+ - [DNS](https://github.com/dhkdhk/TIL/blob/master/Network/DNS.md)
+ - [Referer](https://github.com/dhkdhk/TIL/blob/master/Network/referer.md)
 
 ### Scala
  - [CBN&CNV](https://github.com/dhkdhk/TIL/blob/master/Scala/CBN%26CNV.md)
