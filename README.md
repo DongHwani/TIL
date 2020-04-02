@@ -18,6 +18,7 @@
  - [MySQL 권한명령어](https://github.com/dhkdhk/TIL/blob/master/Database/MySQL%EA%B6%8C%ED%95%9C%EB%AA%85%EB%A0%B9%EC%96%B4.md)
 
 ### DDD
+ - [Domain](https://github.com/dhkdhk/TIL/blob/master/DDD/Domain.md)
  - [Entity와Value](https://github.com/dhkdhk/TIL/blob/master/DDD/Entity%EC%99%80Value.md)
  - [VoDtoEntity](https://github.com/dhkdhk/TIL/blob/master/DDD/VoDtoEntity.md)
 
