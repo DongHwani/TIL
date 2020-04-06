@@ -11,7 +11,7 @@ CountDiv 문제는 A와 B사이의 수 에서 K로 나눌 수 있는 정수의 �
 ### 문제 복기
 
 아래와 같은 식을 세워 문제를 풀었다. 
-![countdiv](/Algorithm/img/countdiv.png)
+![countdiv](/Algorithm/img/countdiv.png)  
 
 (0부터 B까지의 K로 나눈 총 수) - (0부터 A까지의 K로 나눈 총 수) 
 

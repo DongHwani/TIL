@@ -15,7 +15,8 @@
 
 ### Algorithm   
 - Codility 
-  - [CountDiv](https://github.com/dhkdhk/TIL/blob/master/Algorithm/CountDiv.md)
+  - [CountDiv](https://github.com/dhkdhk/TIL/blob/master/Algorithm/Codility/CountDiv.md)
+- [BubbleSort](https://github.com/dhkdhk/TIL/blob/master/Algorithm/BubbleSort.md)
 
 
 ### Database
