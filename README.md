@@ -34,6 +34,7 @@
  - [DependencyInjection](https://github.com/dhkdhk/TIL/blob/master/DesignPattern/DependencyInjection.md) 
 
 ### JAVA
+- [Equals](https://github.com/dhkdhk/TIL/blob/master/JAVA/Equals.md)
 
 ### JPA
  - [CustomRepository](https://github.com/dhkdhk/TIL/blob/master/JPA/CustomRepository.md)
