@@ -131,3 +131,5 @@ public class Banana {
 equals는 보통 hashcode와 기본적으로 같이 사용하여 논리적인 동일성을 보장하는 방식으로 구현한다고 한다. 그래서 다음에는 hashcode에 대한 내용을 정리 해봐야겠다. 
 
 
+### Reference
+ - EffectiveJava 2판
