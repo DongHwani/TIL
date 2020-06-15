@@ -67,7 +67,7 @@
 
 ### TEST
  - [EnhancedRandom](https://github.com/dhkdhk/TIL/blob/master/TEST/EnhancedRandom.md)
-
+ - [Refactoring(1)](https://github.com/dhkdhk/TIL/blob/master/TEST/Refactoring(1).md)
 ### Linux
 - [권한](https://github.com/dhkdhk/TIL/blob/master/Linux/권한.md)
 - [ShellScript(1)](https://github.com/dhkdhk/TIL/blob/master/Linux/ShellScript(1).md)
