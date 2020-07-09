@@ -78,3 +78,5 @@
 
 ### Javascript 
  - [Destructuring](https://github.com/dhkdhk/TIL/blob/master/Javascript/Destructuring.md)
+ 
+ - [ObjectdefineProperty](https://github.com/dhkdhk/TIL/blob/master/Javascript/ObjectdefineProperty.md)
