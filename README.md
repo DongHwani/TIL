@@ -13,8 +13,8 @@
  - [논리합](https://github.com/dhkdhk/TIL/blob/master/ETC/%EB%85%BC%EB%A6%AC%ED%95%A9(Short-Circuit).md)
  - [해시함수](https://github.com/dhkdhk/TIL/blob/master/ETC/%ED%95%B4%EC%8B%9C%ED%95%A8%EC%88%98.md)
  - [Refactoring(1)](https://github.com/dhkdhk/TIL/blob/master/ETC/Refactoring(1).md)
-  - [배포오류(1)](https://github.com/dhkdhk/TIL/blob/master/ETC/배포오류(1).md)
-
+ - [배포오류(1)](https://github.com/dhkdhk/TIL/blob/master/ETC/배포오류(1).md)
+ - [YamlParseError](https://github.com/dhkdhk/TIL/blob/master/ETC/YamlParseError.md)
 
 ### Algorithm   
 - Codility 
