@@ -40,6 +40,7 @@
 - [Equals](https://github.com/dhkdhk/TIL/blob/master/JAVA/Equals.md)
 - [PrimitiveType(1)](https://github.com/dhkdhk/TIL/blob/master/JAVA/PrimitiveType(1).md)
 - [Enum(1)](https://github.com/dhkdhk/TIL/blob/master/JAVA/Enum(1).md)
+- [Enum(2)](https://github.com/dhkdhk/TIL/blob/master/JAVA/Enum(2).md)
 - [Atomic](https://github.com/dhkdhk/TIL/blob/master/JAVA/Atomic.md)
 
 ### JPA
